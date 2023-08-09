@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -9,6 +8,7 @@ import Custom from './components/Custom/Custom';
 import Canada from './components/Canada/Canada';
 import Recently from './components/Recently/Recently';
 import Weed from './components/Weed/Weed';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
