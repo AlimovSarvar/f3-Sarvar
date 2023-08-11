@@ -3,7 +3,9 @@ import './Row.scss'
 
 function Row() {
   return (
-    <div>
+    <div className='container'>
+      
+      <h1>Row</h1>
       
     </div>
   )
