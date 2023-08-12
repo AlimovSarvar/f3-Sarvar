@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Custom() {
+function Say() {
   return (
     <div>
       
@@ -8,5 +8,4 @@ function Custom() {
   )
 }
 
-export default Custom
-
+export default Say

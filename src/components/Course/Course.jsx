@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Row() {
+function Course() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Row() {
   )
 }
 
-export default Row
+export default Course

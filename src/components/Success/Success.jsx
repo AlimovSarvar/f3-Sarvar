@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Canada() {
+function Success() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Canada() {
   )
 }
 
-export default Canada
+export default Success

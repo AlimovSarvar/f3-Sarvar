@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Choose() {
+function Totc() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Choose() {
   )
 }
 
-export default Choose
+export default Totc

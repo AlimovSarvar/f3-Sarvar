@@ -1,28 +1,29 @@
 import './App.scss';
+import Course from './components/Course/Course';
+import Features from './components/Features/Features';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-import Row from './components/Row/Row';
-import Best from './components/Best/Best';
-import Choose from './components/Choose/Choose';
-import Custom from './components/Custom/Custom';
-import Canada from './components/Canada/Canada';
-import Recently from './components/Recently/Recently';
-import Weed from './components/Weed/Weed';
-import Footer from './components/Footer/Footer';
+import Laster from './components/Laster/Laster';
+import Say from './components/Say/Say';
+import Success from './components/Success/Success';
+import Totc from './components/Totc/Totc';
 
 function App() {
   return (
     <div className="App">
+     
     <Header/>
     <Hero/>
-    <Row/>
-    <Best/>
-    <Choose/>
-    <Custom/>
-    <Canada/>
-    <Recently/>
-    <Weed/>
+    <Success/>
+    <Totc/>
+    <Features/>
+    <Course/>
+    <Say/>
+    <Laster/>
     <Footer/>
+
+   
    
     </div>
   );

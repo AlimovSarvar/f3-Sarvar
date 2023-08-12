@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Recently() {
+function Features() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Recently() {
   )
 }
 
-export default Recently
+export default Features
