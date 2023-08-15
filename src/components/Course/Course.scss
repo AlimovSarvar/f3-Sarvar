@@ -1,0 +1,117 @@
+.course {
+    background-color: rgb(189, 216, 246);
+  
+    .course__top {
+       
+        padding-top: 287px;
+        padding-left: 167px;
+        padding-bottom: 200px;
+        h2 {
+            color: rgba(0, 0, 0, 0.87);
+            font-family: Roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        p {
+            color: rgba(0, 0, 0, 0.54);
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+    .couse__bottom {
+        display: flex;
+        justify-content: center;
+    }
+}
+.course__list {
+   width: 1650px;
+    display: flex;
+    
+    align-items: center;
+    list-style-type: none;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.course__list:hover{
+    width: 1682.724px;
+}
+.course__item {
+    width: 104px;
+    height: 418px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 3px 49px 9px rgb(0, 0, 0, 0.06);
+    border-radius: 24px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: rotate(-15deg);
+    border: 1px solid #000;
+    transition: all ease 0.5s;
+    margin-bottom: 200px;
+   margin-left: 100px;
+ 
+}
+
+.course__title {
+    position: absolute;
+    width: 319px;
+    height: 62px;
+    transform: rotate(90deg);
+    background-color: red;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid lightgreen;
+    border-left-width: 20px;
+    border-right-width: 20px;
+}
+.course__inner {
+    width: 500px;
+    height: 390px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 14px;
+    div {
+        padding-left: 30px;
+    }
+    p {
+        width: 300px;
+    }
+    img {
+        width: 30%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.course__item:hover {
+   
+   margin-left: 0px;
+    width: 684px;
+    transform: rotate(0);
+    .course__title {
+        display: none;
+    }
+    .course__inner {
+        display: flex;
+        button {
+            padding: 10px 60px;
+            background-color: transparent;
+            border: 1px solid aqua;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    }
+}
