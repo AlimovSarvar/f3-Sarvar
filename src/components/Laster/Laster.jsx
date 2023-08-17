@@ -40,7 +40,7 @@ function Laster() {
                   <li className='laster__item'>
                     <img className='first__img' src={formerLaster} alt="" />
                     <h5 className='first__tittle'>Class Technologies Inc. Closes $30 Million <br /> Series A Financing to Meet High Demand</h5>
-                    <p className='first__info'>Class Technologies Inc., the company that <br /> created Class,...</p>
+                    <p className='first__info'>Class Technologies Inc., the company that <br /> created Class,....</p>
                   </li>
                     
                  </ul>
