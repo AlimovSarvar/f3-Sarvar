@@ -1,6 +1,8 @@
 import React from 'react'
 import './Course.scss'
 import { data } from '../../lib/Data'
+import { data2 } from '../../lib/Data2'
+import { data3 } from '../../lib/Data3'
 
 
 function Course() {
@@ -42,6 +44,54 @@ function Course() {
                   ))
              }
              
+      </ul>
+      <ul className='course__list'>
+            {
+                  data2.map((item2 ,index2 )=>(
+                        <li className='course__item' key={index2}>
+                      <p className='course__title' style={{background: item2.color}}>{item2.name}</p>
+                      <div className='course__inner'>
+                      <img src={item2.img} alt="" />
+                      <div>
+                                <h2>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                </h2>
+                                <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis nesciunt consectetur doloribus.
+                                 </p>
+                         
+                                <span>$ {item2.space}</span>
+                                <br />
+                                <button>EXPLORE</button>
+                      </div>
+                  </div>
+                </li>
+                  ))
+            }
+      </ul>
+      <ul className='course__list'>
+            {
+                  data3.map((item3 ,index3 )=>(
+                        <li className='course__item' key={index3}>
+                      <p className='course__title' style={{background: item3.color}}>{item3.name}</p>
+                      <div className='course__inner'>
+                      <img src={item3.img} alt="" />
+                      <div>
+                                <h2>
+                                        Lorem ipsum dolor sit amet consectetur.
+                                </h2>
+                                <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis nesciunt consectetur doloribus.
+                                 </p>
+                         
+                                <span>$ {item3.space}</span>
+                                <br />
+                                <button>EXPLORE</button>
+                      </div>
+                  </div>
+                </li>
+                  ))
+            }
       </ul>
       </div>    
 </div>
