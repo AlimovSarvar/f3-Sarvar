@@ -3,7 +3,6 @@ import leftLaster from '../../assets/img/left-laster.png'
 import classLaster from '../../assets/img/class-laster.png'
 import zoomLaster from '../../assets/img/zoom-laster.png'
 import formerLaster from '../../assets/img/former-laster.png'
-import { Link } from 'react-router-dom'
 import './Laster.scss'
 
 function Laster() {
