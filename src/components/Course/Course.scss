@@ -1,8 +1,7 @@
 .course {
-    background-color: rgb(189, 216, 246);
-  
+background:linear-gradient(to right , #b0d4fb  6%  ,#fff) ;
+
     .course__top {
-       
         padding-top: 287px;
         padding-left: 167px;
         padding-bottom: 200px;
@@ -23,25 +22,61 @@
             line-height: normal;
         }
     }
-    .couse__bottom {
+}
+.couse__bottom {
+    position: relative;
+    .bottom__icons {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        text-align: center;
+        .icons1 {
+            color: rgba(0, 0, 0, 0.87);
+            display: flex;
+            gap: 16px;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: normal;
+            .one {
+                color: rgba(0, 0, 0, 0.54);
+            }
+        }
+        .icons2 {
+            display: flex;
+            color: rgba(0, 188, 212, 1);
+            gap: 49.183px;
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+          
+            .two {
+                margin-top: -20px;
+                font-size: 65px;
+            }
+        }
     }
 }
 .course__list {
-   width: 1650px;
+    width: 1450px;
     display: flex;
-    
     align-items: center;
     list-style-type: none;
     margin-top: 100px;
-    flex-wrap: wrap;
     justify-content: space-between;
- 
+    margin-left: 30px;
 }
-.course__list:hover{
+.course__list::after {
+    content: "";
     width: 1682.724px;
+    height: 82.296px;
+    border-radius: 29.5px;
+    background-color: #000;
+    opacity: 0.09;
+    display: block;
+    position: absolute;
+    margin-top: 176px;
 }
+
 .course__item {
     width: 104px;
     height: 418px;
@@ -58,8 +93,6 @@
     border: 1px solid #000;
     transition: all ease 0.5s;
     margin-bottom: 200px;
-   margin-left: 100px;
- 
 }
 
 .course__title {
@@ -97,8 +130,7 @@
     }
 }
 .course__item:hover {
-   
-   margin-left: 0px;
+    margin-left: 0px;
     width: 684px;
     transform: rotate(0);
     .course__title {
