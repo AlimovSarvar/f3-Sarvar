@@ -11,6 +11,22 @@
 //   color: $color;
 // }
 
-h1{
-  color: aqua;
+p{
+  color: #00CBB8;
+  font-size: 36px;
+  font-weight: 700;
+  @include flexes (center, center);
+}
+.p_1 b{
+  color: #2F327D;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.p_2{
+  @include flexes (center, center);
+  font-size: 24px;
+  font-weight: 400;
+  color: #696984;
+  margin-top: 10px;
 }

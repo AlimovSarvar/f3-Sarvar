@@ -4,7 +4,11 @@ import './Features.scss'
 function Features() {
   return (
     <div className='container'>
-      <h1>Our Features</h1>
+
+      <p className='p_1'><b>Our</b>  Features</p>
+      <p className="p_2">This very extraordinary feature, can make learning activities more efficient</p>
+
+
     </div>
   )
 }
