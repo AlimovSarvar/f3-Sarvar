@@ -11,15 +11,24 @@
 //   color: $color;
 // }
 
-p{
+i{
+  opacity: 0;
+}
+
+.p_1{
   color: #00CBB8;
   font-size: 36px;
   font-weight: 700;
   @include flexes (center, center);
 }
-.p_1 b{
+.b1{
   color: #2F327D;
   font-size: 36px;
+  font-weight: 700;
+}
+.b2{
+  color: #00CBB8;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -29,4 +38,25 @@ p{
   font-weight: 400;
   color: #696984;
   margin-top: 10px;
+}
+
+.last1_box{
+  margin-top: 100px;
+  @include flexes(center, space-between)
+}
+.image1{
+  width: 60%;
+  height: auto;
+}
+
+.last1_in_text_box{
+  width: 35%;
+  height: auto;
+  border: solid 1px grey;
+}
+
+.text_big{
+  color: #2F327D;
+  font-size: 40px;
+  font-weight: 700;
 }
