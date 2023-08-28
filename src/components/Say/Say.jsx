@@ -31,10 +31,8 @@ function Say() {
           <div className="big">
           <div className="say__right__inner">
             <img src={sayRight} alt="img" />
-            
-          </div>
-          <div className='say__right__bottom'>
-              <p>
+            <span className='say__right__bottom'>
+            <p>
                 "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. TOTC is exactly what our business has been lacking."
               </p>
                <span className='text'>
@@ -54,8 +52,9 @@ function Say() {
                       </p>
                   </span>
                </span>
-
-            </div>
+            </span>
+          </div>
+         
           </div>
 
         </div>
