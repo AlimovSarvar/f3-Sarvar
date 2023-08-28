@@ -5,7 +5,8 @@ import headerLogo from '../../assets/img/header-logo.png'
 
 function Header() {
   return (
-    <div className='header container'>
+    <div className='header'>
+      <div className="container">
       <div className="nav">
         <img className='header__logo' src={headerLogo} alt="" />
         <ul className='header__list'>
@@ -31,6 +32,7 @@ function Header() {
             <Link>Sign Up</Link>
           </li>
         </ul>
+      </div>
       </div>
     </div>
   )
