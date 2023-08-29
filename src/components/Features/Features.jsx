@@ -1,7 +1,7 @@
 import React from 'react'
 import './Features.scss'
 import featurebox from '../../assets/img/featuresbox.svg'
-import Ellipse1 from '../../assets/img/Ellipse1.jpg'
+import Ellipse1 from '../../assets/img/Ellipse1.svg'
 import Ellipse2 from '../../assets/img/Ellipse2.svg'
 import Ellipse3 from '../../assets/img/Ellipse3.svg'
 import FeaturesContwo from '../../assets/img/FeaturesConTwo.svg'
@@ -68,4 +68,5 @@ function Features() {
     </div>
   )
 }
+
 export default Features

@@ -9,8 +9,8 @@ function Course() {
 
       return (
             <div className='course '>
-                <div className="container">
-                  <div className="course__top">
+                  <div className="container">
+                        <div className="course__top">
                               <h2>
                                     Explore Course
                               </h2>
@@ -25,7 +25,7 @@ function Course() {
                                           <p>Lorem Ipsum</p>
                                     </span>
                                     <span className='icons2'>
-                                          See all 
+                                          See all
                                           <i className="bi bi-arrow-right-short two"></i>
                                     </span>
                               </div>
@@ -62,7 +62,7 @@ function Course() {
                                           <p>Lorem Ipsum</p>
                                     </span>
                                     <span className='icons2'>
-                                          See all 
+                                          See all
                                           <i className="bi bi-arrow-right-short two"></i>
                                     </span>
                               </div>
@@ -96,7 +96,7 @@ function Course() {
                                           <p>Lorem Ipsum</p>
                                     </span>
                                     <span className='icons2'>
-                                          See all 
+                                          See all
                                           <i className="bi bi-arrow-right-short two"></i>
                                     </span>
                               </div>
@@ -124,8 +124,8 @@ function Course() {
                                           ))
                                     }
                               </ul>
+                        </div>
                   </div>
-                </div>
             </div>
       )
 }

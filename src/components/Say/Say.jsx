@@ -24,37 +24,37 @@ function Say() {
           </p>
           <button className='left__btn'>
             Write your assessment
-            
+
           </button>
         </div>
         <div className="say__right">
           <div className="big">
-          <div className="say__right__inner">
-            <img src={sayRight} alt="img" />
-            <span className='say__right__bottom'>
-            <p>
-                "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. TOTC is exactly what our business has been lacking."
-              </p>
-               <span className='text'>
-                 <span >
-                      <h4>
-                         Gloria Rose
-                      </h4>
-                 </span>
-                  <span className='icons'>
-                      <i className="bi bi-star"></i>
-                      <i className="bi bi-star"></i>
-                      <i className="bi bi-star"></i>
-                      <i className="bi bi-star"></i>
-                      <i className="bi bi-star"></i>
-                      <p>
-                      12 reviews at Yelp
-                      </p>
+            <div className="say__right__inner">
+              <img src={sayRight} alt="img" />
+              <span className='say__right__bottom'>
+                <p>
+                  "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. TOTC is exactly what our business has been lacking."
+                </p>
+                <span className='text'>
+                  <span >
+                    <h4>
+                      Gloria Rose
+                    </h4>
                   </span>
-               </span>
-            </span>
-          </div>
-         
+                  <span className='icons'>
+                    <i className="bi bi-star"></i>
+                    <i className="bi bi-star"></i>
+                    <i className="bi bi-star"></i>
+                    <i className="bi bi-star"></i>
+                    <i className="bi bi-star"></i>
+                    <p>
+                      12 reviews at Yelp
+                    </p>
+                  </span>
+                </span>
+              </span>
+            </div>
+
           </div>
 
         </div>

@@ -9,7 +9,7 @@ function Header() {
       <div className="nav">
         <img className='header__logo' src={headerLogo} alt="" />
         <ul className='header__list'>
-          <li >
+          <li className='header__list__item' >
             <Link >Home</Link>
           </li>
           <li className='header__list__item'>
